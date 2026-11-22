@@ -1,0 +1,12 @@
+{
+  "domain": "innebandy",
+  "name": "Innebandy",
+  "codeowners": ["@fatuuse"],
+  "config_flow": true,
+  "documentation": "https://github.com/fatuuse/ha_innebandy",
+  "issue_tracker": "https://github.com/fatuuse/ha_innebandy/issues",
+  "iot_class": "cloud_polling",
+  "integration_type": "service",
+  "requirements": [],
+  "version": "0.0.3"
+}
