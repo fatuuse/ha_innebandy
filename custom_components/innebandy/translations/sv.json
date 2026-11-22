@@ -1,1 +1,33 @@
-
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Vad vill du bevaka?",
+        "data": { "monitor_type": "Typ" }
+      },
+      "venue": {
+        "title": "Lägg till hall",
+        "description": "Ange hall-ID från stats.innebandy.se\nEx: Ingarö Sporthall → **{example}**\n({url})",
+        "data": { "venue_id": "Hall-ID" }
+      },
+      "team": {
+        "title": "Lägg till lag",
+        "description": "Ange lag-ID från stats.innebandy.se\nEx: Ingarö IF P2015 → **{example}**\n({url})",
+        "data": {
+          "team_id":   "Lag-ID",
+          "season_id": "Säsong-ID"
+        }
+      },
+      "confirm": {
+        "title": "Bekräfta",
+        "description": "Vill du bevaka **{name}**?\n{extra}"
+      }
+    },
+    "error": {
+      "cannot_connect": "Kunde inte hämta data. Kontrollera ID och försök igen."
+    },
+    "abort": {
+      "already_configured": "Redan tillagd."
+    }
+  }
+}
