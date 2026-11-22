@@ -48,6 +48,7 @@ CURRENT_SEASON_ID = 44
 # Auth
 IBIS_STARTKIT_URL  = f"{IBIS_API_BASE}/auth/startkit"
 IBIS_HANDSHAKE_URL = f"{IBIS_API_BASE}/auth/handshake"
+TOKEN_EXPIRY_BUFFER = 120  # sek innan token-utgång då den förnyas
 
 # Anläggning (bekräftad)
 IBIS_VENUE_URL = f"{IBIS_API_BASE}/public/venues/{{venue_id}}"
