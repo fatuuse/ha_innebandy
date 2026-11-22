@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "What do you want to monitor?",
+        "data": { "monitor_type": "Type" }
+      },
+      "venue": {
+        "title": "Add venue",
+        "description": "Enter the venue ID from stats.innebandy.se\nExample: Ingarö Sporthall → **{example}**\n({url})",
+        "data": { "venue_id": "Venue ID" }
+      },
+      "team": {
+        "title": "Add team",
+        "description": "Enter the team ID from stats.innebandy.se\nExample: Ingarö IF P2015 → **{example}**\n({url})",
+        "data": { "team_id": "Team ID", "season_id": "Season ID" }
+      },
+      "confirm": {
+        "title": "Confirm",
+        "description": "Do you want to monitor **{name}**?\n{extra}"
+      }
+    },
+    "error": { "cannot_connect": "Could not fetch data. Check the ID and try again." },
+    "abort": { "already_configured": "Already added." }
+  }
+}
